@@ -1,5 +1,5 @@
 """
-My Portfolio Dashboard
+Mia's Portfolio Dashboard
 ------------------------
 Manual entry — no account connection, no API keys. Type in what you hold,
 get live prices, allocation charts, and for each stock: recent news
@@ -20,7 +20,7 @@ import plotly.graph_objects as go
 import streamlit as st
 import yfinance as yf
 
-st.set_page_config(page_title="My Portfolio", page_icon="📈", layout="wide")
+st.set_page_config(page_title="Mia's Portfolio", page_icon="📈", layout="wide")
 
 st.markdown("""
 <style>
